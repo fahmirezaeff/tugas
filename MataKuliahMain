@@ -11,6 +11,20 @@ public class MataKuliahMain
 		System.out.println(mk2.display());
 		System.out.println(mk3.display());
 
+		double totalNilai = 0;
+		int totalSks = 0;
+
+		MataKuliah[] daftarMK = {mk1, mk2, mk3};
+
+		for (MataKuliah mk : daftarMK)
+		{
+			totalNilai += mk.nilaiIndex() * mk.sks;
+			totalSks += mk.sks;
+		}
+
+		double ipk = totalNilai/totalSks;
+
 		System.out.println("---NILAI IPK---");
+		System.out.printf("IPK: %.2f\n", ipk);
 	}
 }
