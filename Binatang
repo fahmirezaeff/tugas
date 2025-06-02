@@ -1,0 +1,21 @@
+public class Binatang {
+	
+	protected String bernapas;
+	protected String berkembangbiak;
+
+	public Binatang(String bernapas, String berkembangbiak)
+	{
+		this.bernapas = bernapas;
+		this.berkembangbiak = berkembangbiak;
+	}
+
+	public String getBernapas()
+	{
+		return bernapas;
+	}
+
+	public String getBerkembangbiak()
+	{
+		return berkembangbiak;
+	}
+}
