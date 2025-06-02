@@ -1,0 +1,17 @@
+public class Mamalia extends Binatang
+{
+	private String hidup;
+	public Mamalia(String hidup, String bernapas, String berkembangbiak)
+	{
+		super(bernapas,berkembangbiak);
+		setHidup(hidup);
+	}
+	public String getHidup()
+	{
+		return hidup;
+	}
+	public void setHidup(String hidup)
+	{
+		this.hidup = hidup;
+	}
+}
