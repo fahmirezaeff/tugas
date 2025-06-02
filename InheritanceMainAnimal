@@ -1,0 +1,10 @@
+public class InheritanceMainAnimal
+{
+	public static void main(String[] args)
+	{
+		Mamalia mml =  new Mamalia("Gajah", "Paru-Paru", "Melahirkan");
+		System.out.println(mml.getHidup()+
+			"_"+ mml.getBernapas()+
+			"_"+ mml.getBerkembangbiak());
+	}
+}
